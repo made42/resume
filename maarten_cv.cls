@@ -75,19 +75,19 @@
     
 %contactsubviews 
     
-    
-\newcommand{\githubview}{\href{\@linkedinaccount}{\faLinkedinSquare\ \footnotesize linkedin}}
-\newcommand{\linkedinview}{\href{\@githubaccount}{\faGithubSquare\ \footnotesize github}}
+\newcommand{\mailview}{\href{mailto:\@mail}{\@mail}}
+\newcommand{\linkedinview}{\href{\@linkedinaccount}{\faLinkedinSquare\ \footnotesize LinkedIn}}
+\newcommand{\githubview}{\href{\@githubaccount}{\faGithubSquare\ \footnotesize GitHub}}
 
 \newcommand{\name}{%
-    {\large \@firstname \ \textsc{\@lastname}}
+	{\large \@firstname \ \textsc{\@lastname}}
 }
 
 \newcommand{\contact}{%
-        {\small \@address  \cps \@mobile \\ \@mail%
-        \\%
-        \linkedinview \cps \githubview \\ 
-        } % 
+	{\small \@address  \cps \@mobile \\ \mailview%
+		\\%
+		\linkedinview \cps \githubview \\ 
+	} % 
 }
 
 % Covverletterview
@@ -195,6 +195,6 @@ Position: & \@claimedposition \\
 \newcommand\createfootnote{%
   \renewcommand{\footnotesize}{\fontsize{7pt}{11pt}\selectfont}
     \renewcommand\footnoterule{\rule{0.3\linewidth}{0.5pt}}
-    \let\thefootnote\relax\footnote{\today\ / \href{https://github.com/muratcankaracabey/latex_cv}{source code}}}
+    \let\thefootnote\relax\footnote{\today\ / \href{https://github.com/made42/resume}{source code}}}
 
 
