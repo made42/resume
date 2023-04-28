@@ -143,11 +143,15 @@ Position: & \@claimedposition \\
 }
 
 \newcommand{\explanation}[1]{%
-    \mbox { \scshape \hspace{1.2em} \footnotesize #1}\\[0.05cm]
+    \mbox { \scshape \hspace{1.2em} \footnotesize #1} \\[0.05cm]
+}
+
+\newcommand{\datedposition}[2]{%
+	\mbox { \scshape \hspace{1.2em} \footnotesize #1} \hfill \datetext{#2} \\[0.05cm]
 }
 
 \newcommand{\explanationdetail}[1]{%
-    \indent \begin{minipage}{0.96\linewidth} \footnotesize #1 \end{minipage} \\[0.1cm]
+    \indent \hspace{0.6em} \begin{minipage}{0.96\linewidth} \footnotesize #1 \end{minipage} \\[0.1cm]
 }
 
 \newcommand{\itemwithtext}[1]{%
