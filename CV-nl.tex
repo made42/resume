@@ -1,0 +1,147 @@
+\documentclass{maarten_cv}
+
+\usepackage[dutch]{babel}
+\usepackage[nodayofweek]{datetime}
+
+\setname{Maarten}{Derks}
+\setaddress{Amsterdam, Nederland}
+\setmobile{+31 6 133 699 05}
+\setmail{mail@maartenderks.nl}
+\setposition{Work Student} %ignored for now
+\setlinkedinaccount{https://www.linkedin.com/in/maarten-derks-97bab84a/} %you can play with color of the template (red is also nice..)
+\setgithubaccount{https://github.com/made42} %you can play with color of the template (red is also nice..)
+\setthemecolor{red} %you can play with color of the template (red is also nice..)
+
+\begin{document}
+%Set variables
+%You can add sections, texts, explanations just by copying the style below. Replace the dummy texts "\lipsum[1][x-x]\par" with actual texts.
+%Create header
+\headerview
+\vspace{1ex}
+%Sections
+%
+% Summary
+\addblocktext{Samenvatting}{%
+Breed opgeleide software engineer met ervaring in de banken- en elektronica-industrie. In mijn rollen bij Fairphone heb ik een Android-telefoon voor ruim zeven jaar van softwareondersteuning voorzien, iets wat nog nooit eerder gedaan is. Ik heb passie voor het leren van nieuwe dingen en voor mijn professionele ontwikkeling, en ik ben op mijn best als ik samenwerk met anderen. In mijn vrije tijd hou ik van lezen, sporten en gitaar leren spelen.
+}
+%
+% Experience
+\section{Werkervaring}
+%
+\datedexperience{Fairphone}{2015 - Heden}
+\datedposition{Senior software engineer}{2021 - Heden}
+\explanationdetail{\coloredbullet\ %
+	Plannen en uitvoeren van de softwareondersteunings-roadmap voor een van Fairphone's producten tot aan EOL\par
+}
+\explanationdetail{\coloredbullet\ %
+	Bijdragen aan software engineering activiteiten voor andere Fairphone producten\par
+}
+\explanationdetail{\coloredbullet\ %
+	Verbeteren en uitbreiden van de testinfrastructuur, automatisering van tests onderzoeken\par
+}
+%
+\datedposition{Tech lead - software longevity team}{2019 - 2021}
+\explanationdetail{\coloredbullet\ %
+	Verantwoordelijk voor software engineering activiteiten voor een van Fairphone's producten
+}
+\explanationdetail{\coloredbullet\ %
+	Vinden en onboarden van een externe software engineering partij na een interne reorganisatie
+}
+\explanationdetail{\coloredbullet\ %
+	Leiden van haalbaarheidsstudie voor ontwikkelen van een Android-upgrade zonder SoC-leverancier ondersteuning
+}
+\explanationdetail{\coloredbullet\ %
+	Leiden van zowel intern als extern personeel in de ontwikkeling van een Android-upgrade
+}
+%
+\datedposition{Android platform engineer}{2016 - 2019}
+\explanationdetail{\coloredbullet\ %
+	Poorten van functionaliteiten, ontwikkeling van Android-upgrades, app-ontwikkeling, beveiligingsonderhoud\par
+}
+%
+\datedposition{Junior Android software engineer}{2015 - 2016}
+\explanationdetail{\coloredbullet\ %
+	Verspreiding van OTA updates, GMS test suites, app-ontwikkeling, publiceren van broncode, beveiligingsonderhoud\par
+}
+%
+\datedposition{Intern - product team}{2015}
+\explanationdetail{\coloredbullet\ %
+	Masterscriptie: \href{https://www.ru.nl/publish/pages/769526/z_master_thesis_maarten_derks.pdf}{Fair Privacy: Improving Usability of the Android Permission System}\par
+}
+%
+\datedexperience{SNS REAAL}{2011 - 2012}
+\datedposition{Stagiaire}{}
+\explanationdetail{\coloredbullet\ %
+	Afstudeerproject: Het poorten van online bankieren-functionaliteiten naar de mobiele website\par
+}
+%
+%\datedexperience{studentaanhuis.nl}{2009-2014}
+%\datedposition{Employee}{}
+%\explanationdetail{\coloredbullet\ %
+%	Helping customers at home with their computer problems.\par
+%}
+%
+%\datedexperience{PDE Automotive}{2008}
+%\datedposition{Intern}{}
+%\explanationdetail{\coloredbullet\ %
+%	Supporting day-to-day operations with regards to network administration (Cisco).
+%}
+%\explanationdetail{\coloredbullet\ %%
+%	Graduation project: Deploying a WSUS server\par
+%}
+%
+%\datedexperience{Digisolve}{2006-2007}
+%\datedposition{Intern}{}
+%\explanationdetail{\coloredbullet\ %
+%	Computer assembly and repair for B2B customers.
+%}
+%
+%\datedexperience{Necomm}{2005-2006}
+%\datedposition{Intern}{}
+%\explanationdetail{\coloredbullet\ %
+%	Sales and technical support in a telecom/computer store.
+%}
+%
+%Education
+\section{Educatie}
+    \datedexperience{Radboud Universiteit}{2012 - 2015}
+    \explanation{Master Computer Science}
+     \explanationdetail{\coloredbullet\ %
+	     Specialisaties: Software Construction, Quality of Software\par
+     }
+	 \explanationdetail{\coloredbullet\ %
+		 Subsidiair onderwerp: Security/Privacy\par
+	 }
+% 	\explanation{Pre-Master's Computer Science}
+% 	\explanationdetail{\coloredbullet\ %
+% 		Briding the gap between prior education and the Master's in Computer Science\par
+% 	}
+    \datedexperience{Avans Hogeschool}{2008 - 2012}
+    \explanation{Bachelor Informatica}
+    \explanationdetail{\coloredbullet\ %
+		 Minoren: Software Architectuur, Game Development\par
+     }
+%	 \datedexperience{ROC Ter AA}{2004-2008}
+%	 \explanation{MBO level 4, IT Administrator}
+%	 \explanationdetail{\coloredbullet\ %
+%	 	Specialisation: Network Administrator\par
+%	 }
+%
+% Skills
+\section{Vaardigheden}
+    %
+    \newcommand{\skillone}{\createskill{Programmeertalen}{\textbf{\emph{Ervaren:}} \ \  Java \cpshalf Python \cpshalf Bash \ \ \textbf{\emph{Vertrouwd:}} \ \ C \cpshalf C++ \cpshalf Rust \cpshalf C\# \cpshalf Haskell}}
+    %
+    \newcommand{\skilltwo}{\createskill{Opmaaktalen}{HTML \cpshalf CSS \cpshalf XML \cpshalf JSON \cpshalf YAML \cpshalf TeX \cpshalf Markdown}}
+    %
+    \newcommand{\skillthree}{\createskill{Softwareontwikkeling}{Git \cpshalf Jenkins \cpshalf Gerrit \cpshalf GitLab \cpshalf DevOps \cpshalf Testautomatisering}}
+    %
+    \newcommand{\skillfour}{\createskill{Android}{AOSP \cpshalf Qualcomm BSPs \cpshalf Linux kernel \cpshalf GMS \cpshalf Beveiliging \cpshalf OTA \cpshalf Tradefed}}
+    %
+    \newcommand{\skillfive}{\createskill{Talen}{\textbf{\emph{Natuurlijk:}} \ \  Nederlands \ \ \textbf{\emph{Volledig Professioneel:}} \ \ Engels \ \ \textbf{\emph{Eenvoudig:}} \ \ Duits \cpshalf Frans}}
+    %
+    \createskills{\skillone, \skilltwo, \skillthree, \skillfour, \skillfive}
+%
+%Footnote
+\createfootnotenl
+\end{document}
