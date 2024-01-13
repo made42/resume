@@ -106,6 +106,19 @@ Position: & \@claimedposition \\
 \end{tabular}
 }
 
+\newcommand\coverletternl[1]{
+	\\  \coverletternlsubview
+	\section{} \vspace{1ex}
+	\textbf{ Beste \@contactperson, \\[0.1cm]}
+	#1
+}
+
+\newcommand\coverletternlsubview{
+	\begin{tabular}{>{\scshape \bfseries \color{\@themecolor}}l  >{\small }l}
+		Organisatie: & \@companyname \\
+		Positie: & \@claimedposition \\
+	\end{tabular}
+}
 
 % Helper commands
 
